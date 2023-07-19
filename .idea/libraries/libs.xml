@@ -1,0 +1,21 @@
+<component name="libraryTable">
+  <library name="libs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/javafx-fxml-19.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/gson-2.8.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/javafx-controls-19-linux.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/javafx-controls-19.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/filechooser-0.0.11.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/javafx-swing-19-linux.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/javafx-base-19-linux.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/javafx-swing-19.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/javafx-graphics-19-linux.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/javafx-fxml-19-linux.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/javafx-graphics-19.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/swing-layout-1.0.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/javafx-base-19.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
