@@ -1,0 +1,111 @@
+# Android Developer Interview Questions
+
+A collection of Android Developer Interview questions for screening and interviewing candidates at various levels.
+
+## Table of Contents
+1. [Android Architecture](#android-architecture)
+2. [Activity vs Fragment](#activity-vs-fragment)
+3. [Intent in Android](#intent-in-android)
+4. [RecyclerView vs ListView](#recyclerview-vs-listview)
+5. [Activity Lifecycle](#activity-lifecycle)
+6. [EventBus in Android](#eventbus-in-android)
+7. [Android Notification System](#android-notification-system)
+8. [ContentProvider Purpose](#contentprovider-purpose)
+9. [AsyncTask Explanation](#asynctask-explanation)
+10. [BroadcastReceiver Concept](#broadcastreceiver-concept)
+11. [Loaders in Android](#loaders-in-android)
+12. [ViewModel Usage](#viewmodel-usage)
+13. [Service vs IntentService](#service-vs-intentservice)
+14. [Handler and Looper](#handler-and-looper)
+15. [Dependency Injection in Android](#dependency-injection-in-android)
+16. [Purpose of Manifest File](#purpose-of-manifest-file)
+17. [Data Binding in Android](#data-binding-in-android)
+18. [ConstraintLayout vs RelativeLayout](#constraintlayout-vs-relativelayout)
+19. [Room Persistence Library](#room-persistence-library)
+20. [Kotlin Coroutines](#kotlin-coroutines)
+
+## Android Architecture
+**Question:** Can you explain the Android Architecture?
+**Answer:** Android Architecture consists of five key components: Linux Kernel, Hardware Abstraction Layer (HAL), Android Runtime (ART), Libraries, Application Framework, and Applications.
+
+## Activity vs Fragment
+**Question:** What is the difference between an `Activity` and a `Fragment`?
+**Answer:** Activity represents a single screen with a user interface, while Fragment is a modular part of an activity.
+
+## Intent in Android
+**Question:** What is `Intent` in Android?
+**Answer:** Intent in Android is a messaging object used to request an action from another component.
+
+## RecyclerView vs ListView
+**Question:** How does the `RecyclerView` work, and why is it preferred over `ListView`?
+**Answer:** `RecyclerView` is an advanced and flexible version of `ListView`. It is a container for displaying large datasets which can be scrolled very efficiently by maintaining a limited number of views.
+
+## Activity Lifecycle
+**Question:** Can you explain the lifecycle of an Android `Activity`?
+**Answer:** An `Activity` goes through various states from its inception to termination, including `onCreate()`, `onStart()`, `onResume()`, `onPause()`, `onStop()`, `onDestroy()`, and `onRestart()`.
+
+## EventBus in Android
+**Question:** Explain EventBus and how it's used in Android?
+**Answer:** EventBus is a publish/subscribe event bus optimized for Android. It simplifies communication between different parts of your application.
+
+## Android Notification System
+**Question:** Describe Android's Notification System.
+**Answer:** Android’s Notification System allows apps to alert users about important events, both silently and intrusively, through the notification bar, lock screen, or a pop-up dialogue.
+
+## ContentProvider Purpose
+**Question:** What is the purpose of Android’s `ContentProvider`?
+**Answer:** `ContentProvider` manages access to a central repository of data, allowing data sharing between different apps securely.
+
+## AsyncTask Explanation
+**Question:** Explain AsyncTask. What problems does it solve and what issues might it have?
+**Answer:** `AsyncTask` facilitates performing background operations and publishing results on the UI thread. However, it might lead to memory leaks and doesn't handle configuration changes well.
+
+## BroadcastReceiver Concept
+**Question:** What is `BroadcastReceiver`?
+**Answer:** `BroadcastReceiver` responds to system-wide broadcast announcements. Apps can also initiate broadcasts to let other apps know that required data has been downloaded and is available for them.
+
+## Loaders in Android
+**Question:** How do Loaders work in Android?
+**Answer:** Loaders provide asynchronous loading of data in an activity or fragment, handle data configuration changes efficiently, and track the source for data changes.
+
+## ViewModel Usage
+**Question:** What is `ViewModel` in Android Architecture Components?
+**Answer:** `ViewModel` is designed to store and manage UI-related data in a conscious way about the lifecycle. It allows data to survive configuration changes like screen rotations.
+
+## Service vs IntentService
+**Question:** What is the difference between a `Service` and an `IntentService`?
+**Answer:** `Service` runs on the main thread and is used for long-running operations, while `IntentService`, a type of Service, runs on a separate worker thread and is used for tasks with a finite duration.
+
+## Handler and Looper
+**Question:** Explain the concept of `Handler` and `Looper` in Android.
+**Answer:** `Handler` is used to schedule and process messages and runnable objects associated with a thread's message queue. `Looper` loops through the message queue in a thread, dispatching each message and handling it.
+
+## Dependency Injection in Android
+**Question:** What is Dependency Injection, and how is it implemented in Android?
+**Answer:** Dependency Injection is a design pattern where an object's dependencies are injected by the system, promoting code modularity and testability.
+
+## Purpose of Manifest File
+**Question:** What is the purpose of the `Manifest` file in Android?
+**Answer:** The `AndroidManifest.xml` declares the app's package name, components, permissions, and libraries.
+
+## Data Binding in Android
+**Question:** What is Data Binding in Android?
+**Answer:** Data Binding is a library that allows you to bind UI components in your layout files directly to data sources in your app using a declarative format.
+
+## ConstraintLayout vs RelativeLayout
+**Question:** What is the difference between `ConstraintLayout` and `RelativeLayout`?
+**Answer:** `ConstraintLayout` offers a flexible and powerful layout system while `RelativeLayout` positions views based on their relation to other views.
+
+## Room Persistence Library
+**Question:** Can you explain what is `Room` in Android, and how does it work?
+**Answer:** Room is a persistence library that provides an abstraction layer over SQLite, simplifying database operations and ensuring best practices are followed.
+
+## Kotlin Coroutines
+**Question:** What are `Coroutines` in Kotlin, and how are they used in Android development?
+**Answer:** Coroutines are a Kotlin feature that converts async callbacks for long-running tasks into sequential code, making the code more readable and understandable.
+
+## Contributing
+Feel free to submit pull requests with additional questions and answers that are relevant and useful for Android Developer Interviews.
+
+## License
+This project is open source and available under the [MIT License](LICENSE).
